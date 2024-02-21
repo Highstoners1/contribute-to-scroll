@@ -1,13 +1,13 @@
 name: Add Scroll to some tool or library
 description: This brings Scroll compatibility into an existing library or project
-title: Add Scroll to
+title: Add Scroll to WORMHOLE
 labels: ["integration"]
 body:
   - type: input
     id: integration_name
     attributes:
-      label: "Name of the project"
-      placeholder: "Example: wagmi"
+      label: "Project Name"
+      placeholder: "Wormhole"
     validations:
       required: true
   - type: dropdown
@@ -20,17 +20,17 @@ body:
     validations:
       required: true
   - type: input
-    id: integration_site_link
+    id: https://wormhole.com/
     attributes:
-      label: "Site of the project"
-      placeholder: "https://wagmi.sh/"
+      label: "Project site link"
+      placeholder: "https://wormhole.com/"
     validations:
       required: false
   - type: input
     id: integration_github_link
     attributes:
       label: "Github repository of the project"
-      placeholder: "https://github.com/wagmi-dev/wagmi"
+      placeholder: "https://github.com/wormhole-foundation"
     validations:
       required: true
   - type: dropdown
